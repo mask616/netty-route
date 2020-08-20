@@ -14,13 +14,6 @@ netty-websocket-spring-boot-starter [![License](http://img.shields.io/:license-a
 
 - 添加依赖:
 
-```xml
-	<dependency>
-		<groupId>com.mask./groupId>
-		<artifactId>netty-websocket-spring-boot-starter</artifactId>
-		<version>0.9.5</version>
-	</dependency>
-```
 
 - 在端点类上加上`@ServerEndpoint`注解，并在相应的方法上加上`@BeforeHandshake`、`@OnOpen`、`@OnClose`、`@OnError`、`@OnMessage`、`@OnBinary`、`@OnEvent`注解，样例如下：
 
